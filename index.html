@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/preset/preset.css">
+  <link rel="stylesheet" type="text/css" href ="css/style.css">
   <!-- Put CSS Link here!-->
   <title>CSS Practice</title>
 </head>
@@ -46,11 +47,11 @@
   <hr>
   <div class="info-section">
     <h3>How do we get get started on combining CSS HTML?</h3>
-    <p> The first thing you need to do is create a CSS stylesheet and link to it in your HTML file. Your link should be in the 'head' section of the html in this page and should look something like this:<br>
+    <p> The first thing you need to do is create a CSS stylesheet and link to it in your HTML file. Your link should be in the 'head' section of the html in this page and should look something like this:</p><br>
      <pre>&#60link rel="stylesheet" type="text/css" href="path_to_stylesheet"&#62</pre>
     <br>
     There is a provided style.css file inside of the css folder in this code along. Go ahead and add a link tag to index.html in the 'head' section. The href should be set to "css/style.css"
-    </p>
+    
   </div>
   <hr>
   <div class="info-section">
@@ -85,7 +86,7 @@
   <pre>
     <h3 class="myClass">Example Header</h3>
   </pre>
-  Now, just this one 'h3' element will have a gray background and blue text! Not only that, <em>any</em> element that is given the class "myClass" will have a gray background and blue text.
+  <p>Now, just this one 'h3' element will have a gray background and blue text! Not only that, <em>any</em> element that is given the class "myClass" will have a gray background and blue text.
   </p>
   <p>Let's practice this. First, create a class in 'style.css'.  It can be called anything you like. Your name, your favorite color, etc..</p>
   <p>Next, add some declarations. If you're not sure what to add, try some or all of the following, and feel free to change the values:</p>
@@ -100,8 +101,8 @@
       transition: rotate(-30)deg;
     }
   </pre>
-  <p>Finally, with our class declarations created, we need to assign this class to elements in index.html</p>
-  <p>Open index.html in your IDE, choose some HTML elements and add 'class=' followed by the name of your new class, in quotes. Maybe try adding a class to the `h1` and `h2` elements at the top of the page.</p>
+  <p class="warriors">Finally, with our class declarations created, we need to assign this class to elements in index.html</p>
+  <p class="warriors">Open index.html in your IDE, choose some HTML elements and add 'class=' followed by the name of your new class, in quotes. Maybe try adding a class to the `h1` and `h2` elements at the top of the page.</p>
   <p>Save the work you've done, and refresh this page.  The elements you've selected should display the styling you've declared.</p>
   <br>
   <p>Using an id for styling works the same way, with only two main differences. Instead of '.' at the start of the class name in our CSS file, we use '#'. Also, when assigning to an HTML eleemnt, instead of typing 'class="myClass"', you would write:</p>
