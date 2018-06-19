@@ -1,1 +1,15 @@
 /* add CSS class and element and selectors here */
+body {background-color: coral;
+  font-size: 150%;
+  color: green;
+  text-shadow: 3px 3px #ff0000;
+  text-align: center;
+}
+h3{
+  font-size: 300%;
+}
+
+div{
+  border: 5px solid red;
+}
+
