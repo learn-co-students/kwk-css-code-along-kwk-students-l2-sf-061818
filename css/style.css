@@ -1,1 +1,11 @@
 /* add CSS class and element and selectors here */
+
+
+body{
+  background-color: red;
+  font-size: 150%;
+  }
+
+h3{text-shadow: 2px 2px #ff0000;color:green;font-size: 300%;}
+div{text-align: center;border: double;}
+h1,h2,p{text-shadow: px 2px #ff0000;color:green;}
