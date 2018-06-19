@@ -1,1 +1,26 @@
 /* add CSS class and element and selectors here */
+body {
+  font-size: 150%;
+}
+.anna {
+  font-size: 300%;
+  font-family: courier;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 300%;
+}
+
+div {
+  border: 10px dotted black;
+}
+
+* {
+  background-color: red;
+  color: green;
+  text-shadow: 2px 2px white;
+  text-align: center;
+}
