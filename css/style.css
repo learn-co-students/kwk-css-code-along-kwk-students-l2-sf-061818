@@ -1,1 +1,29 @@
 /* add CSS class and element and selectors here */
+body
+{
+  background-color: red;  
+}
+
+h3
+{ 
+  font-size: 300%;
+  color: green;
+}
+
+div
+{
+  border-style: double;
+}
+
+p
+{
+  color: green;
+  text-shadow: 2px 2px #ff0000; 
+  text-align: center;
+}
+
+*
+{
+  color: green;
+  text-align: center;
+}
