@@ -1,1 +1,13 @@
-/* add CSS class and element and selectors here */
+h3 {font-size:300%}
+
+* {background-color:#a5011d}
+
+body {color:#bef2ba}
+
+* {text-shadow: 2px 2px #ffffff}
+
+body {text-align:center}
+
+div {border-style:solid;
+  border-color:gray;
+}
