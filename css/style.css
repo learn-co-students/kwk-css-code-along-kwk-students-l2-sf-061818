@@ -1,6 +1,9 @@
 /* add CSS class and element and selectors here */
 body {
   background-color: red;
+  color: green;
+  text-shadow: 5px 2px white;
+  text-align: center;
 }
 
 h3 {
